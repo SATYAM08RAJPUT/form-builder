@@ -1,9 +1,11 @@
 import "./App.css";
+import FormBuilder from "./Form Builder/formbuilder";
 
 function App() {
   return (
     <>
-      <h2>Form Builder</h2>
+      <h3 className="title-header">Welcome to Form Builder App</h3>
+      <FormBuilder />
     </>
   );
 }
