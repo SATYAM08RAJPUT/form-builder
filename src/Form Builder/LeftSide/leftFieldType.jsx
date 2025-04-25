@@ -6,6 +6,8 @@ const fiELDtYPE = [
   { type: "checkbox", label: "Checkbox" },
   { type: "email", label: "Email" },
   { type: "number", label: "Number" },
+  { type: "date", label: "Date" },
+  { type: "color", label: "Color" },
 ];
 const LeftFiledType = () => {
   const handleDragstart = (e, type, label) => {
